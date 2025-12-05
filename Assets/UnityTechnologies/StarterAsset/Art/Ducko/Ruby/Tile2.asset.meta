@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/UnityTechnologies/StarterAsset/Art/Ruby/Tile2.asset.meta
+guid: 7929b30cf54e63b43888b6302f07a736
+=======
 guid: 12fff73c32132b7428109e99f089e717
+>>>>>>> 5b2bb974fe4a26f9e2cb53571d895d45d04e80a6:Assets/UnityTechnologies/StarterAsset/Art/Ducko/Ruby/Tile2.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
