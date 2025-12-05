@@ -1,24 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class PlayerControler : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    public float speed = 1.0f;
+    public InputAction MoveAction;
     // Start is called before the first frame update
     void Start()
     {
-        
+        MoveAction.Enable();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 position = transform.position;
-        position.x = position.x + 0.1f;
-        transform.position = position;
-
-        position.y = position.y - 0.01f;
+        Vector2 move = MoveAction.ReadValue<Vector2>();
+        Debug.Log(move);
+        Vector2 position = (Vector2)transform.position + move * speed;
         transform.position = position;
 
     }
-}
+}      
