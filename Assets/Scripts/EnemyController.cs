@@ -23,7 +23,7 @@ public class EnemyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         timer = changeTime;
-        animator = GetComponent<Animator>();
+        animator = GetComponent<animator>();
 
     }
 
@@ -55,7 +55,7 @@ public class EnemyController : MonoBehaviour
         if (vertical)
         {
             animator.SetFloat("Move X", 0);
-            //animator.Set
+            animator.Set
             position.y = position.y + speed * direction * Time.deltaTime;
         }
         else
@@ -75,7 +75,7 @@ public class EnemyController : MonoBehaviour
 
         if (player != null)
         {
-           // player.ChangeHealth(-1);
+            player.ChangeHealth(-1);
         }
     }
 
