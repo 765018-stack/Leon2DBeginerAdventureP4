@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 2297636575733680667}
   - component: {fileID: 6263336891971364505}
   - component: {fileID: 8333015052846022839}
-  m_Layer: 0
+  - component: {fileID: -5959245845376048386}
+  m_Layer: 8
   m_Name: Ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +151,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.22, y: 2.54}
+    oldSize: {x: 1, y: 2.081967}
     newSize: {x: 1.22, y: 2.54}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -173,3 +174,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
+  projectilePrefab: {fileID: 6540086582890296204, guid: 9196cc454ebf0204e84b05df23797e5b,
+    type: 3}
+  timeInvincible: 2
+--- !u!95 &-5959245845376048386
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4460649428164505961}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

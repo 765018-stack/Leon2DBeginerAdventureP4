@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2023530721843360383}
   - component: {fileID: 6033006082312177181}
   - component: {fileID: 8894590967790057860}
-  - component: {fileID: 1042822623560661914}
+  - component: {fileID: 1596723407976899607}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8015282504948303168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.86, y: -1.43, z: 0}
+  m_LocalPosition: {x: -8.051, y: -1.41, z: 0}
   m_LocalScale: {x: 1.1912469, y: 0.9112327, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,18 +159,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1042822623560661914
-MonoBehaviour:
+--- !u!95 &1596723407976899607
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8015282504948303168}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 756841c64836b114aa0ae37c729b6941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  vertical: 1
-  ChangeTime: 3
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 129ce4f216409b1438aedc20453ba68a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
